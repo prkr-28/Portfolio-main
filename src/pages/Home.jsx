@@ -212,8 +212,8 @@ const Home = () => {
             <span className="text-neutral-200">Next.js</span>,{" "}
             <span className="text-green-400">Node.js</span>,{" "}
             <span className="text-rose-500">Express.js</span>,{" "}
-            <span className="text-sky-500">Tailwind CSS</span>,{" "}
-            <span className="text-orange-400">Shadcn UI</span>, and{" "}
+            <span className="text-orange-400">Tailwind CSS</span>,{" "}
+            <span className="text-sky-500">Shadcn UI</span>, and{" "}
             <span className="text-purple-400">MongoDB</span> - turning complex
             ideas into seamless digital experiences.
           </p>

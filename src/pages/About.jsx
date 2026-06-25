@@ -4,11 +4,9 @@ import gsap from "gsap";
 import { ScrollTrigger, SplitText } from "gsap/all";
 import dp from "../assets/images/DP.webp";
 import {
-  FaSquareFacebook,
   FaSquareInstagram,
   FaSquareXTwitter,
   FaSquareWhatsapp,
-  FaSquareBluesky,
 } from "react-icons/fa6";
 import GithubCalendar from "../components/GithubCalendar";
 import CustomTerminal from "@/components/CustomTerminal";
@@ -264,16 +262,6 @@ const About = () => {
                 <div className="flex gap-3">
                   {[
                     {
-                      icon: <FaSquareFacebook />,
-                      href: "#",
-                      color: "#0064e0",
-                    },
-                    {
-                      icon: <FaSquareInstagram />,
-                      href: "https://www.instagram.com/prkr/",
-                      color: "#E1306C",
-                    },
-                    {
                       icon: <GitHubIcon />,
                       href: "https://github.com/prkr-28",
                       color: "#fafafa",
@@ -282,6 +270,11 @@ const About = () => {
                       icon: <FaSquareXTwitter />,
                       href: "https://x.com/prkr",
                       color: "#fafafa",
+                    },
+                    {
+                      icon: <FaSquareInstagram />,
+                      href: "https://www.instagram.com/._priyanshu__g/",
+                      color: "#E1306C",
                     },
                     {
                       icon: <FaSquareWhatsapp />,
