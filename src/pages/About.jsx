@@ -34,32 +34,32 @@ const skillsFrontend = [
 ];
 
 const skillsBackend = [
-  { name: "Node.js", level: 60, color: "#22c55e" },
-  { name: "Express.js", level: 50, color: "#ff8904" },
+  { name: "Node.js", level: 50, color: "#22c55e" },
+  { name: "Express.js", level: 70, color: "#ff8904" },
   { name: "REST APIs", level: 80, color: "#ff2056" },
   { name: "MongoDB", level: 50, color: "#3ecf8e" },
-  { name: "PostgreSQL", level: 40, color: "#ee342f" },
+  { name: "PostgreSQL", level: 30, color: "#ee342f" },
 ];
 
 const skillsFrameworks = [
-  { name: "React", level: 78, color: "#0095be" },
-  { name: "Next.js", level: 58, color: "#ededed" },
-  { name: "Tailwind CSS", level: 86, color: "#00a6f4" },
+  { name: "React", level: 70, color: "#0095be" },
+  { name: "Next.js", level: 50, color: "#ededed" },
+  { name: "Tailwind CSS", level: 80, color: "#00a6f4" },
   { name: "Shadcn UI", level: 90, color: "#e5e5e5" },
 ];
 
 const skillsTools = [
   { name: "Visual Studio Code", level: 100, color: "#0c8cd3" },
   { name: "Android Studio", level: 50, color: "#978b60" },
-  { name: "Git", level: 96, color: "#f05133" },
+  { name: "Git", level: 90, color: "#f05133" },
   { name: "GitHub", level: 100, color: "#f0f6fc" },
-  { name: "Figma", level: 88, color: "#ff3737" },
+  { name: "Figma", level: 80, color: "#ff3737" },
 ];
 
 const skillsOthers = [
-  { name: "Photoshop", level: 36, color: "#31a8ff" },
-  { name: "Illustrator", level: 28, color: "#ff9b00" },
-  { name: "WordPress Studio", level: 46, color: "#3858e9" },
+  { name: "Photoshop", level: 30, color: "#31a8ff" },
+  { name: "Illustrator", level: 20, color: "#ff9b00" },
+  { name: "WordPress Studio", level: 40, color: "#3858e9" },
 ];
 
 const SkillBar = ({ name, level, color, delay }) => {
