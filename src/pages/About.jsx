@@ -7,6 +7,7 @@ import {
   FaSquareInstagram,
   FaSquareXTwitter,
   FaSquareWhatsapp,
+  FaLinkedin,
 } from "react-icons/fa6";
 import GithubCalendar from "../components/GithubCalendar";
 import CustomTerminal from "@/components/CustomTerminal";
@@ -262,6 +263,11 @@ const About = () => {
                 <div className="flex gap-3">
                   {[
                     {
+                      icon: <FaLinkedin />,
+                      href: "https://www.linkedin.com/in/prkr28/",
+                      color: "#fafafa",
+                    },
+                    {
                       icon: <GitHubIcon />,
                       href: "https://github.com/prkr-28",
                       color: "#fafafa",
@@ -274,12 +280,7 @@ const About = () => {
                     {
                       icon: <FaSquareInstagram />,
                       href: "https://www.instagram.com/._priyanshu__g/",
-                      color: "#E1306C",
-                    },
-                    {
-                      icon: <FaSquareWhatsapp />,
-                      href: "https://api.whatsapp.com/send/?phone=91-7482916689&text&type=phone_number&app_absent=0",
-                      color: "#05df72",
+                      color: "#fafafa",
                     },
                   ].map(({ icon, href, color }) => (
                     <a
