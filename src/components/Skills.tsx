@@ -1,0 +1,256 @@
+import { skillsSection } from "@/utils/skillSet";
+import { AiOutlineDotNet } from "react-icons/ai";
+import { DiNginx, DiSqllite } from "react-icons/di";
+import {
+  FaCode,
+  FaCss3Alt,
+  FaDatabase,
+  FaDocker,
+  FaJava,
+  FaNode,
+  FaPython,
+  FaReact,
+} from "react-icons/fa";
+import { FaAws } from "react-icons/fa6";
+import { GoContainer, GoCopilot } from "react-icons/go";
+import { GrGraphQl, GrUserWorker } from "react-icons/gr";
+import { IoLogoJavascript } from "react-icons/io";
+import { IoCloudCircleSharp } from "react-icons/io5";
+import {
+  MdGeneratingTokens,
+  MdOutlineSettingsApplications,
+} from "react-icons/md";
+import {
+  RiBearSmileLine,
+  RiNextjsFill,
+  RiTailwindCssFill,
+} from "react-icons/ri";
+import {
+  SiAwslambda,
+  SiCplusplus,
+  SiExpress,
+  SiJfrogpipelines,
+  SiLangchain,
+  SiMongodb,
+  SiMongoosedotws,
+  SiPostgresql,
+  SiRedis,
+  SiRedux,
+  SiShadcnui,
+  SiSharp,
+  SiTypescript,
+  SiVectorworks,
+} from "react-icons/si";
+import {
+  TbBrandOauth,
+  TbBrandReactNative,
+  TbDatabaseCog,
+  TbPrompt,
+  TbVector,
+} from "react-icons/tb";
+import { TiDocumentText } from "react-icons/ti";
+import { VscAzure, VscSymbolInterface, VscVscode } from "react-icons/vsc";
+
+const Skills = () => {
+  const skillsData: skillsSection[] = [
+    {
+      id: "1",
+      icon: <FaReact size={30} className="text-[#a8e6cf]" />,
+      title: "FRONTEND",
+      heroColor: "#a8e6cf",
+      skillProps: [
+        {
+          skillId: "S1",
+          skillName: "Next.js",
+          skillIcon: <RiNextjsFill size={20} />,
+        },
+        { skillId: "S2", skillName: "React.js", skillIcon: <FaReact /> },
+        { skillId: "S4", skillName: "Redux.js", skillIcon: <SiRedux /> },
+        { skillId: "S6", skillName: "Shadcn UI", skillIcon: <SiShadcnui /> },
+        {
+          skillId: "S7",
+          skillName: "Tailwind CSS",
+          skillIcon: <RiTailwindCssFill />,
+        },
+        {
+          skillId: "S8",
+          skillName: "CSS",
+          skillIcon: <FaCss3Alt />,
+        },
+      ],
+    },
+    {
+      id: "2",
+      icon: <FaCode size={30} className="text-[#ff6b9d]" />,
+      title: "BACKEND",
+      heroColor: "#ff6b9d",
+      skillProps: [
+        { skillId: "B2", skillName: "Node.js", skillIcon: <FaNode /> },
+        { skillId: "B3", skillName: "Express.js", skillIcon: <SiExpress /> },
+        {
+          skillId: "B4",
+          skillName: "FAST API",
+          skillIcon: <IoCloudCircleSharp />,
+        },
+        {
+          skillId: "B6",
+          skillName: "Flask",
+          skillIcon: <GrUserWorker />,
+        },
+      ],
+    },
+    {
+      id: "3",
+      icon: <IoLogoJavascript size={30} className="text-[#ffd93d]" />,
+      title: "LANGUAGES",
+      heroColor: "#ffd93d",
+      skillProps: [
+        { skillId: "L1", skillName: "C", skillIcon: <SiSharp /> },
+        {
+          skillId: "L2",
+          skillName: "JavaScript",
+          skillIcon: <IoLogoJavascript />,
+        },
+        { skillId: "L4", skillName: "Java", skillIcon: <FaJava /> },
+        { skillId: "L5", skillName: "Python", skillIcon: <FaPython /> },
+        { skillId: "L6", skillName: "C++", skillIcon: <SiCplusplus /> },
+      ],
+    },
+    {
+      id: "4",
+      icon: <FaDatabase size={30} className="text-[#ff6b9d]" />,
+      title: "DATABASE",
+      heroColor: "#ff6b9d",
+      skillProps: [
+        { skillId: "DB1", skillName: "MongoDB", skillIcon: <SiMongodb /> },
+        { skillId: "DB2", skillName: "Vector DBs", skillIcon: <SiRedis /> },
+        {
+          skillId: "DB3",
+          skillName: "MYSQL",
+          skillIcon: <SiPostgresql />,
+        },
+        { skillId: "DB4", skillName: "SQL Server", skillIcon: <DiSqllite /> },
+      ],
+    },
+    {
+      id: "6",
+      icon: <FaCode size={30} className="text-[#66d9ef]" />,
+      title: "TOOLS",
+      heroColor: "#66d9ef",
+      skillProps: [
+        { skillId: "T1", skillName: "Git", skillIcon: <FaCode /> },
+        { skillId: "T2", skillName: "VSCode", skillIcon: <VscVscode /> },
+        {
+          skillId: "T3",
+          skillName: "FLASK API (design & testing)",
+          skillIcon: <IoCloudCircleSharp />,
+        },
+        {
+          skillId: "T4",
+          skillName: "Authentication",
+          skillIcon: <TbBrandOauth />,
+        },
+        { skillId: "T5", skillName: "JWT", skillIcon: <MdGeneratingTokens /> },
+        { skillId: "T7", skillName: "Claude", skillIcon: <GoCopilot /> },
+      ],
+    },
+    {
+      id: "7",
+      icon: <FaReact size={30} className="text-[#a8e6cf]" />,
+      title: "AI INTEGRATION",
+      heroColor: "#a8e6cf",
+      skillProps: [
+        {
+          skillId: "AI1",
+          skillName: "Prompt engineering",
+          skillIcon: <TbPrompt />,
+        },
+        {
+          skillId: "AI2",
+          skillName: "LLM APIs",
+          skillIcon: <FaCode />,
+        },
+        {
+          skillId: "AI3",
+          skillName: "Embeddings & vector DBs",
+          skillIcon: <TbVector />,
+        },
+        {
+          skillId: "AI5",
+          skillName: "RAG",
+          skillIcon: <TiDocumentText />,
+        },
+        {
+          skillId: "AI9",
+          skillName: "Data labeling",
+          skillIcon: <TbDatabaseCog />,
+        },
+        {
+          skillId: "AI10",
+          skillName: "LangChain",
+          skillIcon: <SiLangchain />,
+        },
+      ],
+    },
+  ];
+
+  return (
+    <div className="w-full h-auto flex mb-7 font-space-grotesk text-black dark:text-white">
+      <div className="flex w-full flex-col gap-6 px-5 sm:gap-7 sm:px-8 md:gap-8 md:px-12">
+        <div className="cta-overlay-shell w-fit">
+          <div className="cta-overlay-back absolute inset-0 rounded-lg border-[3px] border-black dark:border-[#a8e6cf] bg-black dark:bg-[#a8e6cf]" />
+          <div className="nav-cta relative inline-flex w-fit rounded-lg border-[3px] border-black dark:border-[#a8e6cf] bg-[#ffd93d] dark:bg-[#67d6ea] px-4 py-2 text-3xl font-black leading-none text-black sm:px-5 sm:py-2.5 sm:text-4xl md:px-6 md:py-3 md:text-5xl">
+            <h1>SKILLS</h1>
+          </div>
+        </div>
+
+        <div className="w-full grid grid-cols-1 gap-6 sm:gap-7 md:grid-cols-2 md:gap-8 lg:grid-cols-3">
+          {skillsData.map((section) => (
+            <div key={section.id} className="cta-overlay-shell relative">
+              <div className="cta-overlay-back absolute inset-0 rounded-lg border-[3px] border-black dark:border-[#a8e6cf] bg-black dark:bg-[#a8e6cf]" />
+              <div className="cta-overlay-front relative min-h-90 rounded-lg border-[3px] border-black dark:border-[#a8e6cf] bg-white dark:bg-stone-800 overflow-hidden sm:min-h-100">
+                <div
+                  className="w-full h-3 absolute top-0 left-0"
+                  style={{ backgroundColor: section.heroColor }}
+                />
+                <div className="px-5 pt-5 sm:px-6 sm:pt-6">
+                  <div className="flex items-center gap-3">
+                    <span className="flex items-center">{section.icon}</span>
+                    <span className="text-2xl font-black text-black dark:text-white sm:text-3xl">
+                      {section.title}
+                    </span>
+                  </div>
+                  <div className="mt-4 h-1 w-full bg-black dark:bg-[#a8e6cf]" />
+                </div>
+
+                <div className="mt-4 flex flex-wrap gap-2 px-5 pb-5 sm:gap-3 sm:px-6 sm:pb-6">
+                  {section.skillProps.map((skill) => (
+                    <div
+                      key={skill.skillId}
+                      className="cta-overlay-shell skill-chip-hover w-fit"
+                      style={{
+                        ["--skill-hover-color" as string]: section.heroColor,
+                      }}
+                    >
+                      <div className="cta-overlay-back absolute inset-0 rounded-md border-2 border-black dark:border-[#a8e6cf] bg-black dark:bg-[#a8e6cf]" />
+                      <div className="cta-overlay-front relative flex cursor-pointer items-center gap-2 rounded-md border-2 border-black dark:border-[#a8e6cf] bg-white dark:bg-stone-900 px-3 py-2.5 text-sm font-semibold text-black dark:text-white whitespace-nowrap sm:px-4 sm:py-3 sm:text-base">
+                        <span className="flex items-center justify-center text-lg">
+                          {skill.skillIcon}
+                        </span>
+                        <span className="leading-tight sm:text-lg">
+                          {skill.skillName}
+                        </span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Skills;

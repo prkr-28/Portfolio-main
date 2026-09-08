@@ -9,6 +9,7 @@ import {
   FaSquareWhatsapp,
   FaLinkedin,
 } from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
 import GithubCalendar from "../components/GithubCalendar";
 import CustomTerminal from "@/components/CustomTerminal";
 
@@ -265,22 +266,22 @@ const About = () => {
                     {
                       icon: <FaLinkedin />,
                       href: "https://www.linkedin.com/in/prkr28/",
-                      color: "#fafafa",
+                      color: "#ffa116",
                     },
                     {
                       icon: <GitHubIcon />,
                       href: "https://github.com/prkr-28",
-                      color: "#fafafa",
+                      color: "#ffa116",
                     },
                     {
-                      icon: <FaSquareXTwitter />,
-                      href: "https://x.com/prkr",
-                      color: "#fafafa",
+                      icon: <SiLeetcode />,
+                      href: "https://leetcode.com/u/prkr28/",
+                      color: "#ffa116",
                     },
                     {
                       icon: <FaSquareInstagram />,
                       href: "https://www.instagram.com/._priyanshu__g/",
-                      color: "#fafafa",
+                      color: "#ffa116",
                     },
                   ].map(({ icon, href, color }) => (
                     <a
