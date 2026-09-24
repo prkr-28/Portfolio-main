@@ -4,8 +4,30 @@ import resumeXpert from "/src/assets/images/resumeXpert.png";
 import vybe from "/src/assets/images/vybe.png";
 import tastyBytes from "/src/assets/images/tastyBytes.png";
 import linkedin from "/src/assets/images/linkedin.jpg";
+import aivora from "/src/assets/images/aivora.png";
 
 const project = [
+    {
+        name: "Aivora",
+        description:
+            "An intelligent goal-tracking platform powered by AI to help you achieve your learning objectives with personalized roadmaps, progress tracking, and AI-generated insights.",
+        technologies: [
+            "React.js",
+            "Zustand",
+            "Tailwind CSS",
+            "Gemini API",
+            "MongoDB",
+            "Express.js",
+            "Node.js",
+            "JWT",
+            "LangChain",
+        ],
+        image: aivora,
+        timeStamp: "June 2026 - July 2026",
+        projectType: "Ai/Web App",
+        liveDemo: "https://github.com/prkr-28/MERN-Linkedin-clone",
+        githubRepo: "http://13.63.153.183:3000/",
+    },
     {
         name: "CivicPulse",
         description:
@@ -90,17 +112,6 @@ const project = [
         projectType: "Web App",
         liveDemo: "https://vybe-one.vercel.app/",
         githubRepo: "https://github.com/prkr-28/Vybe",
-    },
-    {
-        name: "TastyBytes",
-        description:
-            "A modern, responsive food delivery application built with React.js that allows users to browse restaurants, view menus, and manage their cart with a beautiful user interface.",
-        technologies: ["React.js", "Redux Toolkit", "Swiggy API", "Tailwind CSS", "CSS"],
-        image: tastyBytes,
-        timeStamp: "May 2024 - June 2024",
-        projectType: "Web App",
-        liveDemo: "https://github.com/prkr-28/tastybytes",
-        githubRepo: "https://github.com/prkr-28/tastybytes",
     },
     {
         name: "LinkedIn Clone",
